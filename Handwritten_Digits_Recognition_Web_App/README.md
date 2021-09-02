@@ -1,5 +1,9 @@
 # Project: Handwritten Digits Recognition Web App
 
+## Sample Image
+<img src='Images/sample.png' height=300 img/>
+<img src='Images/sample2.png' height=300 img/>
+
 ## Used Libraries
 |Library|Version|
 |---|---|
