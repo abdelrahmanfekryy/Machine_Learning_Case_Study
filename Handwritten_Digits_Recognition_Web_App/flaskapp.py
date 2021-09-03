@@ -8,7 +8,7 @@ print(os.system('set FLASK_APP=flaskapp.py'))
 
 app = Flask(__name__)
 dir_path = os.path.dirname(os.path.realpath(__file__))
-model = load_model(f'{dir_path}/trained_models/LeNet_5.h5')
+model = load_model(f'{dir_path}/trained_models/modified_LeNet_5.h5')
 model.compile(optimizer = 'adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 
